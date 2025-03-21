@@ -7,10 +7,6 @@ pipeline {
               	    echo "repo cloned successfully"  
               	    }  
          	    } 
-            stage("maven life cycle"){
-              steps{
-                  sh 'mvn clean install'
-              }
-            }
+        
         }
 }
